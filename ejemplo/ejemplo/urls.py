@@ -22,8 +22,7 @@ from ejemplo.views import cosita
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', include('index.urls')),
-    path('hola/', cosita),
+    path('', include('index.urls')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)
 

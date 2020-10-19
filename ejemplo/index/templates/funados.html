@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Funaditos 2020</h1> 
+    {% for x in listafuna %}
+        <ul>
+            <li>Rut Funadito: {{ x.rut }}</li>
+            <li>Nombre Funadito: {{ x.nombrefunado }}</li>
+            <li>Motivo funa: {{ x.des }}</li>
+            <li>Fecha funa: {{ x.fecha }}</li>
+        </ul>
+    {% endfor %}
+{% endblock %}

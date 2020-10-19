@@ -1,5 +1,5 @@
 from django.contrib import admin
-from . models import elmanchas
+from . models import funado
 
 # Register your models here.
-admin.site.register(elmanchas) 
+admin.site.register(funado) 
